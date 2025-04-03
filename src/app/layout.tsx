@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Isaiah Nazaire Resume ",
@@ -11,8 +12,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="dark" lang="en">
-      <body className="dark:bg-gray-800">{children}</body>
+    <html lang="en">
+      <body>{children}</body>
     </html>
   );
 }
