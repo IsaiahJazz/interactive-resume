@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav className="bg-[linear-gradient(90deg,#FAD961,#F76B1C)] text-black py-4 px-8 flex justify-between">
+    <nav className="bg-[linear-gradient(90deg,#FAD961,#F76B1C)] text-black py-4 px-8 flex justify-between shadow-lg">
       <div className="flex space-x-6">
         <a
           href="#about"
