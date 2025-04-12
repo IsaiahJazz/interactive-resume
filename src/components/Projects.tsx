@@ -40,6 +40,11 @@ const Projects = () => {
               JavaScript and TypeScript (for building the logic and handling
               types)
             </li>
+            <li>Formspree (for sending emails from the contact form)</li>
+            <li>
+              Next.js API Routes (to handle form submissions and communicate
+              with Formspree)
+            </li>
           </ul>
         </div>
 
