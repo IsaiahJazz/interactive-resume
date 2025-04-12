@@ -13,10 +13,10 @@ const Projects = () => {
             Current Project: Resume Website
           </h2>
           <p className="text-lg md:text-xl text-gray-800 mb-6 text-left">
-            I'm currently building my personal resume website to showcase my
-            skills, experience, and projects. The website is designed to be both
-            visually appealing and highly functional, providing a seamless user
-            experience across devices.
+            I&apos;m currently building my personal resume website to showcase
+            my skills, experience, and projects. The website is designed to be
+            both visually appealing and highly functional, providing a seamless
+            user experience across devices.
           </p>
 
           <h3 className="text-xl font-semibold text-[#F76B1C] mb-2">

@@ -10,16 +10,16 @@ const AboutMe = () => {
 
         <div className="flex flex-col items-center space-y-6 text-lg md:text-xl text-gray-700 max-w-3xl">
           <p className="py-2 text-center">
-            Hi, I'm Isaiah Nazaire, a Full-Stack Software Engineer. I’m
-            passionate about creating modern, scalable web applications that
-            prioritize performance and user experience. My goal is always to
-            write clean, efficient code that brings seamless experiences to
+            Hi, I&apos;m Isaiah Nazaire, a Full-Stack Software Engineer.
+            I&apos;m passionate about creating modern, scalable web applications
+            that prioritize performance and user experience. My goal is always
+            to write clean, efficient code that brings seamless experiences to
             users.
           </p>
           <p className="py-2 text-center">
             After transitioning from engineering business analysis to software
-            engineering, I’ve found immense satisfaction in problem-solving and
-            building something from scratch. Each project is an exciting
+            engineering, I&apos;ve found immense satisfaction in problem-solving
+            and building something from scratch. Each project is an exciting
             opportunity to learn new technologies and solve real-world problems.
           </p>
           <p className="py-2 text-center">
@@ -38,7 +38,7 @@ const AboutMe = () => {
             </a>{" "}
             or{" "}
             <a
-              href="mailto:isaiajazz01h@gmail.com"
+              href="#contact"
               className="text-[#F76B1C] font-semibold hover:underline"
             >
               contact me
