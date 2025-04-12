@@ -2,6 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
+    //Need to add an add to top button
     <nav className="bg-[linear-gradient(90deg,#FAD961,#F76B1C)] text-black py-4 px-8 flex justify-between sticky top-0 z-1">
       <div className="flex space-x-6">
         <a
