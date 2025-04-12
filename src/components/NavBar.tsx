@@ -2,13 +2,25 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav className="bg-[linear-gradient(90deg,#FAD961,#F76B1C)] text-black py-4 px-8 flex justify-between shadow-lg">
+    <nav className="bg-[linear-gradient(90deg,#FAD961,#F76B1C)] text-black py-4 px-8 flex justify-between sticky top-0 z-1">
       <div className="flex space-x-6">
+        <a
+          href="#hero"
+          className="font-semibold text-xl hover:text-white transition"
+        >
+          Hero
+        </a>
         <a
           href="#about"
           className="font-semibold text-xl hover:text-white transition"
         >
           About
+        </a>
+        <a
+          href="#skills"
+          className="font-semibold text-xl hover:text-white transition"
+        >
+          Skills
         </a>
         <a
           href="#projects"
@@ -21,12 +33,6 @@ const NavBar = () => {
           className="font-semibold text-xl hover:text-white transition"
         >
           Contact
-        </a>
-        <a
-          href="#skills"
-          className="font-semibold text-xl hover:text-white transition"
-        >
-          Skills
         </a>
       </div>
     </nav>
