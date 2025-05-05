@@ -3,7 +3,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <section id="about" className="bg-white py-16">
-      <div className="max-w-5xl mx-auto px-6 flex flex-col items-center">
+      <div className="max-w-5xl mx-auto px-6 lg:px-10 flex flex-col items-center">
         <h1 className="text-5xl md:text-6xl font-bold text-center mb-6 text-[#F76B1C]">
           About Me
         </h1>
@@ -33,6 +33,7 @@ const AboutMe = () => {
             <a
               href="#projects"
               className="text-[#F76B1C] font-semibold hover:underline"
+              aria-label="Check out my projects"
             >
               projects
             </a>{" "}
@@ -40,6 +41,7 @@ const AboutMe = () => {
             <a
               href="#contact"
               className="text-[#F76B1C] font-semibold hover:underline"
+              aria-label="Contact me for collaborations or job opportunities"
             >
               contact me
             </a>{" "}
