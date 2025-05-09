@@ -5,8 +5,9 @@ import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import Projects from "@/components/Projects";
 import "./globals.css";
+import { JSX } from "react";
 
-export default function Home() {
+export default function Home(): JSX.Element {
   return (
     <div>
       <NavBar />

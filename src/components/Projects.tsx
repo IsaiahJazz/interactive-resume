@@ -1,6 +1,6 @@
 import React from "react";
 
-const Projects = () => {
+const Projects: React.FC = () => {
   return (
     <section id="projects" className="bg-[#F76B1C] py-16">
       <div className="max-w-5xl mx-auto px-6">
